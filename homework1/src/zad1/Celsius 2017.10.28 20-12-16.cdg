@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Celsius">
+  <ClassDiagramComponents>
+    <Class name="Celsius" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="celsius" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCelsius" returnType="double" visibility="public"/>
+        <Method name="setCelsius" returnType="void" visibility="public">
+          <Argument type="double" name="celsius"/>
+        </Method>
+        <Method name="convertToFahrenheit" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

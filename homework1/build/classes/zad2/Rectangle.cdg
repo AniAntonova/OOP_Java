@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Rectangle">
+  <ClassDiagramComponents>
+    <Class name="Rectangle" package="" visibility="public" xPosition="63.0" yPosition="49.0">
+      <Fields>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="Rectangle" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+          <Argument type="double" name="height"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

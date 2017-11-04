@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Rectangle">
+  <ClassDiagramComponents>
+    <Class name="Rectangle" package="" visibility="public" xPosition="63.0" yPosition="49.0">
+      <Fields>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="width"/>
+          <Argument type="double" name="height"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getWidth" returnType="double" visibility="public"/>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="getHeight" returnType="double" visibility="public"/>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="getArea" returnType="double" visibility="public"/>
+        <Method name="getPerimeter" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

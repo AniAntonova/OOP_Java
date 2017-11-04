@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Zad4">
+  <ClassDiagramComponents>
+    <Class name="Stock" package="" visibility="public" xPosition="117.0" yPosition="125.0">
+      <Fields>
+        <Field name="symbol" type="String" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="previousClosingPrice" type="double" visibility="private"/>
+        <Field name="currentPrice" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="symbol"/>
+          <Argument type="String" name="name"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSymbol" returnType="String" visibility="public"/>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getPreviousClosingPrice" returnType="double" visibility="public"/>
+        <Method name="getCurrentPrice" returnType="double" visibility="public"/>
+        <Method name="setCurrentPrice" returnType="void" visibility="public">
+          <Argument type="double" name="price"/>
+        </Method>
+        <Method name="setPreviousClosingPrice" returnType="void" visibility="public">
+          <Argument type="double" name="price"/>
+        </Method>
+        <Method name="changePercent" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="TestConvert">
+  <ClassDiagramComponents>
+    <Class name="TestConvert" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="start" returnType="void" visibility="public">
+          <Argument type="Stage" name="primaryStage"/>
+        </Method>
+        <Method name="messageDialog" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="infoMessage"/>
+          <Argument type="String" name="titleBar"/>
+          <Argument type="String" name="headerMessage"/>
+        </Method>
+        <Method name="inputDialog" returnType="String" visibility="public" isStatic="true">
+          <Argument type="String" name="infoMessage"/>
+          <Argument type="String" name="titleBar"/>
+          <Argument type="String" name="headerMessage"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
